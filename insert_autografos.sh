@@ -1,9 +1,11 @@
 #!/bin/bash
 
-# Define libro.pdf and autografos-4.pdf as variables
+# Este script genera una copia de LIBRO_PDF por cada página
+# de AUTOGRAFOS_PDF. Las copias tienen la página de autógrafo
+# insertada al inicio.
 LIBRO_PDF="libro.pdf"
-AUTOGRAFOS_PDF="autografos-4.pdf"
-OUTPUT_PREFIX="mais_amor_4"
+AUTOGRAFOS_PDF="autografos-5.pdf"
+OUTPUT_PREFIX="mais_amor_5"
 
 # Check if the required files exist
 if [ ! -f "${LIBRO_PDF}" ] || [ ! -f "${AUTOGRAFOS_PDF}" ]; then
